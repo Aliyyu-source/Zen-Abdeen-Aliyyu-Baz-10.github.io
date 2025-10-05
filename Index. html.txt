@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>Welcome message>/html
+>html>my name>/html
+>html>contact info>/html
+.html>Emailaddress>/html
+ >/html
+<body>my name is Zen-Abdeen Aliyyu>/body
+>body>I was asked to create a website for a portfolio website>/body
+>body>You can contact me by phone on +358 46....>/body
+>body>email address:babatundealiyyu411@gmail.com
+>/body
+
+<h1>My First Heading</h1>
+>h1>I am a student at Lab university of applied sciences>/h1
+>h1>I study Industrial information technology>/h1
+>/h1
+
+<p>My first paragraph.</p>
+>p> I have an assignment to upload a website for my portfolio>/p
+>p>I am passionate about web developing>/p
+>/p
+
+</body>
+</html>
