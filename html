@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox Portfolio Layout</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .image {
+    flex: 1 1 300px;
+    padding: 10px;
+  }
+  .text {
+    flex: 2 1 300px;
+    padding: 10px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+</style>
+</head>
+<body>
+<h1>My Portfolio</h1>
+<div class="container">
+  <div class="image">
+    <img src="https://via.placeholder.com/300" alt="Sample Image">
+  </div>
+  <div class="text">
+    <h2>About Me</h2>
+    <p>Hello! I am Baz-10, a student passionate about industrial IT. This layout demonstrates Flexbox responsiveness and flexibility.</p>
+  </div>
+</div>
+</body>
+</html>
